@@ -26,7 +26,7 @@ type interfaceTest struct {
 	storeTest Storer
 }
 
-func main() {
+func interfaces() {
 	test := interfaceTest{
 		storeTest: DBStore{},
 	}
