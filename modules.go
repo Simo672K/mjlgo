@@ -5,7 +5,7 @@ import (
 	"learning-go/types"
 )
 
-func main() {
+func modules() {
 	newUser := types.User{
 		Username: "this is a username",
 		Age:      24,

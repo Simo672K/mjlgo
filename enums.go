@@ -11,7 +11,7 @@ const (
 	Horror
 )
 
-func getGameCategory(gameCategory GameCategory) int {
+func GetGameCategory(gameCategory GameCategory) int {
 	switch gameCategory {
 	case Action:
 		return 1

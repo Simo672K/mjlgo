@@ -9,7 +9,7 @@ var (
 
 const thisIsMyConstent = 10 // this is how constants are declared in golang
 
-func vars() {
+func Vars() {
 	// or we can declar and infer vals
 	myOtherNumVar := 15
 	fmt.Printf("Printing 'myOtherNumVar': %d\n", myOtherNumVar)

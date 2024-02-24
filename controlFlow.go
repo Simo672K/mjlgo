@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func loops() {
+func Loops() {
 	// for loops in golang
 	for i := 0; i < 5; i++ {
 		fmt.Println("iteration number: ", i)
